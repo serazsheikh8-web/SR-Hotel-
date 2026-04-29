@@ -1,1 +1,123 @@
-<h1>Good afternoon</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunrise Hotel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #34495e;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #2c3e50;
+    }
+    .hero {
+      background: url('https://picsum.photos/1200/400?hotel') no-repeat center center;
+      background-size: cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+    .section {
+      padding: 2rem;
+      text-align: center;
+    }
+    .rooms {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .room {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 300px;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sunrise Hotel</h1>
+    <p>Your comfort, our priority</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#rooms">Rooms</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    Welcome to Sunrise Hotel
+  </div>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>Located in the heart of the city, Sunrise Hotel offers luxury and comfort at affordable prices.</p>
+  </section>
+
+  <section id="rooms" class="section">
+    <h2>Our Rooms</h2>
+    <div class="rooms">
+      <div class="room">
+        <h3>Deluxe Room</h3>
+        <p>Spacious room with king-size bed, free Wi-Fi, and city view.</p>
+      </div>
+      <div class="room">
+        <h3>Suite</h3>
+        <p>Luxury suite with private balcony, living area, and premium amenities.</p>
+      </div>
+      <div class="room">
+        <h3>Standard Room</h3>
+        <p>Cozy room with queen-size bed, perfect for short stays.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: info@sunrisehotel.com</p>
+    <p>Phone: +977-123456789</p>
+    <p>Address: Main Street, Lumbini, Nepal</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Sunrise Hotel. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
